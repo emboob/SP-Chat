@@ -2,7 +2,7 @@
 
 ## Usage
 ```Shell
-$ gcc -o server_socket server.c
+$ gcc -o server_socket server.c -lpthread
 $ ./server_socket (portnumber)
 
 // new Shell 1
@@ -11,7 +11,7 @@ $ qmake
 $ make
 $ ./chat_001
 
-// new Shell 1
+// new Shell 2
 $ ./chat_001
 
 ```
